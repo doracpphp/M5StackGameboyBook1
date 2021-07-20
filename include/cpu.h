@@ -12,6 +12,6 @@ static struct CPU cpu;
 
 void cpu_init();
 bool cpu_execute();
+uint8_t cpu_get_cycle();
 ::CPU* getCPU();
 void debug_registers();
-uint8_t cpu_get_cycle();
